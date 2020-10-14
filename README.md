@@ -1,1 +1,1 @@
-# rsschool-cv
+[Kuzmin Dzmitry cv](https://repmvby.github.io/rsschool-cv/cv)
