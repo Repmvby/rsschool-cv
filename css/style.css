@@ -1,4 +1,6 @@
 
+* {box-sizing: border-box;
+}
 .header {
     display: flex;
     justify-content: space-around;
@@ -14,7 +16,8 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    width: 100%;
+    flex: 1;
+    margin-right: 100px;
 }
 .objective {
     display: flex;
@@ -30,8 +33,6 @@
 .avatar {
     width: 270px;
     border-radius: 100%;
-    margin-left: 100px;
-    margin-right: 40px;
 }
 .contact{
     padding: 5px;
@@ -72,4 +73,14 @@ li {
 }
 span {
     color: black;
+}
+@media screen and (max-width: 768px){
+    .header {font-size: 18px;
+        flex-direction: column;}
+    .introduction {font-size: 20px;}
+    .skills {font-size: 20px;}
+    .education {font-size: 20px;}
+    .avatar-container {width: 100%;}
+    .personal-information {width: 100%;}
+    .main-container{flex-direction: column;}
 }
