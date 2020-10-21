@@ -19,12 +19,12 @@ Personal skills that I have and, in my opinion, will help me in further learning
      - Documentation menedgment;
 7. Education:
 
-   - Bachelor's Degree in Social and Medical Psychology</br>
-   2010-2016</br>
+   - Bachelor's Degree in Social and Medical Psychology<br/>
+   2010-2016<br/>
    Brest State Uneversity, Faculty of Social Pedagogy (Brest,Belarus).
 
-   - Master of Psychology Candidate Concetration: Social Psychology. Master's thesis: _Psychological preparedness of high-school students for volunteering activites._</br> 
-   2017-2019</br>
+   - Master of Psychology Candidate Concetration: Social Psychology. Master's thesis: _Psychological preparedness of high-school students for volunteering activites._<br/> 
+   2017-2019<br/>
    Brest State Uneversity, Faculty of Social Pedagogy (Brest,Belarus).
 
 8. English level - __A2-Elementary__.
