@@ -1,0 +1,16 @@
+.style-div {
+    width: 1024px; 
+    margin: 0 auto;
+}
+.style-header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items:center;
+}
+.avatar-image {
+    width: 130px;
+    margin-right: 50px;
+}
+.js-exp {
+    font-weight: 700;
+}
