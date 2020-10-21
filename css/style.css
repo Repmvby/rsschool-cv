@@ -1,6 +1,7 @@
-
+.flex {
+    display: flex;  
+}
 .header {
-    display: flex;
     justify-content: space-around;
     align-items: flex-start;
     max-width: 1024px;
@@ -11,20 +12,17 @@
     font-size: 25px;
 }
 .personal-information {
-    display: flex;
     justify-content: flex-start;
     flex-direction: column;
     width: 100%;
 }
 .objective {
-    display: flex;
     flex-direction: column;
     width: 100%;
     margin-bottom: 10px;
     background-color: rgb(196, 196, 196)
 }
 .avatar-container {
-    display: flex;
     height: auto;
 }
 .avatar {
@@ -37,7 +35,6 @@
     padding: 5px;
 }
 .introduction {
-    display: flex;
     justify-content: start;
     align-items: flex-start;
     width: 100%;
@@ -49,7 +46,6 @@
     padding-left: 30px;
 }
 .main-container {
-    display: flex;
     justify-content: space-around;
     align-items: flex-start;
     width: 100%;
@@ -57,19 +53,20 @@
     margin: 0 auto;
 }
 
-.skills {
+.skills-education {
     font-size: 30px;
     font-family: "Geneva", sans-serif;
     padding-right: 40px;
 }
-.education {
-    font-size: 30px;
-    font-family: "Geneva", sans-serif;
-    padding-left: 40px;
+ul {
+    list-style: none;
 }
-li {
-    color:  rgb(194, 110, 0);
-}
-span {
-    color: black;
+  
+ul li::before {
+    content: "\2022";
+    color: rgb(194, 110, 0);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
 }
