@@ -12,39 +12,39 @@
     <script type="text/javascript" src="/singolo/plugin.js"></script>
     <script>
         function togleMenu() {
-          var x = document.getElementById("menu");
-          if (x.className === "header") {
-            x.className += " responsive";
+          let menuElement = document.getElementById("menu");
+          if (menuElement.className === "header") {
+            menuElement.className += " responsive";
           } else {
-            x.className = "header";
+            menuElement.className = "header";
           }
         }
         </script>
     <title>Singolo</title>
 </head>
-<main>
-    <div id="header">
-        <div id="menu" class="header" >
-            <div class="header-left">
-                <div class="icon" onclick="togleMenu()"></div>
-                <h1 class="logo left"><a href="index.html"></a></h1>
-            </div>
-            <ul class="nav-menu right">
-                    <li class="current"><a href="#home">home</a></li>
-                    <li><a href="#services">services</a></li>
-                    <li><a href="#portfolio">portfolio</a></li>
-                    <li><a href="#about">about</a></li>
-                    <li><a href="#contact">contact</a></li>
-            </ul>
+<div class="header-main">
+    <div id="menu" class="header" >
+        <div class="header-left">
+            <div class="icon" onclick="togleMenu()"></div>
+            <h1 class="logo"><a href="index.html"></a></h1>
         </div>
+        <ul class="nav-menu">
+                <li class="current"><a href="#home">home</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#contact">contact</a></li>
+        </ul>
     </div>
+</div>
+<main>
     <div class="img-background">
         <div id="carousel" class="owl-carousel">
             <div class="item item-1"></div>
             <div class="item item-2"></div>   
         </div> 
     </div>
-    <div id="services">
+    <div class="services">
         <div class="inner">
         	<h2>Our Services</h2>
             <h3>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</h3>
@@ -82,7 +82,7 @@
             </ul>
         </div>
     </div>
-	<div id="portfolio">
+	<div class="portfolio">
         <div class="inner">
         	<h2>Portfolio</h2>
             <h3>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</h3>
@@ -92,76 +92,76 @@
                 <li class="graphicdesign"><a href="#">Graphic Design</a></li>
                 <li class="artwork"><a href="#">Artwork</a></li>
             </ul>
-            <ul class="portfolio">
+            <ul class="portfolio-style">
             	<li>
                     <a href="https://sun1.dataix-by-minsk.userapi.com/c637817/v637817249/27297/d1Amzl6nJ7g.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="/singolo/images/img1.jpg" width="220" height="187" alt="#" />
+                        <img src="/singolo/images/img1.jpg" class="image-size" alt="#" />
                     </a>
                 </li>
             	<li>
                     <a href="https://sun1.dataix-by-minsk.userapi.com/c637817/v637817249/27297/d1Amzl6nJ7g.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="/singolo/images/img2.jpg" width="220" height="187" alt="#" />
+                        <img src="/singolo/images/img2.jpg" class="image-size" alt="#" />
                     </a>
                 </li>
             	<li>
                     <a href="https://sun1.dataix-by-minsk.userapi.com/c637817/v637817249/27297/d1Amzl6nJ7g.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="/singolo/images/img3.jpg" width="220" height="187" alt="#" />
+                        <img src="/singolo/images/img3.jpg" class="image-size" alt="#" />
                     </a>
                 </li>
             	<li>
                     <a href="https://sun1.dataix-by-minsk.userapi.com/c637817/v637817249/27297/d1Amzl6nJ7g.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="/singolo/images/img4.jpg" width="220" height="187" alt="#" />
+                        <img src="/singolo/images/img4.jpg" class="image-size" alt="#" />
                     </a>
                 </li>
             	<li>
                     <a href="https://sun1.dataix-by-minsk.userapi.com/c637817/v637817249/27297/d1Amzl6nJ7g.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="/singolo/images/img5.jpg" width="220" height="187" alt="#" />
+                        <img src="/singolo/images/img5.jpg" class="image-size" alt="#" />
                     </a>
                 </li>
             	<li>
                     <a href="https://sun1.dataix-by-minsk.userapi.com/c637817/v637817249/27297/d1Amzl6nJ7g.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="/singolo/images/img6.jpg" width="220" height="187" alt="#" />
+                        <img src="/singolo/images/img6.jpg" class="image-size" alt="#" />
                     </a>
                 </li>
             	<li>
                     <a href="https://sun1.dataix-by-minsk.userapi.com/c637817/v637817249/27297/d1Amzl6nJ7g.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="/singolo/images/img7.jpg" width="220" height="187" alt="#" />
+                        <img src="/singolo/images/img7.jpg" class="image-size" alt="#" />
                     </a>
                 </li>
             	<li>
                     <a href="https://sun1.dataix-by-minsk.userapi.com/c637817/v637817249/27297/d1Amzl6nJ7g.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="/singolo/images/img8.jpg" width="220" height="187" alt="#" />
+                        <img src="/singolo/images/img8.jpg" class="image-size" alt="#" />
                     </a>
                 </li>
             	<li>
                     <a href="https://sun1.dataix-by-minsk.userapi.com/c637817/v637817249/27297/d1Amzl6nJ7g.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="/singolo/images/img9.jpg" width="220" height="187" alt="#" />
+                        <img src="/singolo/images/img9.jpg" class="image-size" alt="#" />
                     </a>
                 </li>
             	<li>
                     <a href="https://sun1.dataix-by-minsk.userapi.com/c637817/v637817249/27297/d1Amzl6nJ7g.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="/singolo/images/img10.jpg" width="220" height="187" alt="#" />
+                        <img src="/singolo/images/img10.jpg" class="image-size" alt="#" />
                     </a>
                 </li>
             	<li>
                     <a href="https://sun1.dataix-by-minsk.userapi.com/c637817/v637817249/27297/d1Amzl6nJ7g.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="/singolo/images/img11.jpg" width="220" height="187" alt="#" />
+                        <img src="/singolo/images/img11.jpg" class="image-size" alt="#" />
                     </a>
                 </li>
             	<li>
                     <a href="https://sun1.dataix-by-minsk.userapi.com/c637817/v637817249/27297/d1Amzl6nJ7g.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="/singolo/images/img12.jpg" width="220" height="187" alt="#" />
+                        <img src="/singolo/images/img12.jpg"class="image-size" alt="#" />
                     </a>
                 </li>
             </ul>
         </div>
     </div>
-    <div id="footer">
-        <div class="inner">
-        	<p class="left">© Copyright 2013</p> 
+    <div class="footer">
+        <div class="inner footer-information">
+        	<p class="footer-color">© Copyright 2013</p> 
             <ul>
             	<li>
-                    <a href=""><span class="icon-facebook"></span></a>
+                    <a href=""><span class="icon-facebook icon-color"></span></a>
                     <a href=""><span class="icon-gplus"></span></a>
                     <a href=""><span class="icon-twitter"></span></a>
                     <a href=""><span class="icon-linkedin"></span></a>
